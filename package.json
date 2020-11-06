@@ -1,0 +1,25 @@
+{
+  "name": "bankintest",
+  "version": "1.0.0",
+  "description": "My bankin' test",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 12.19.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alexandre Karassouloff <a.karassouloff@gmail.com>",
+  "license": "ISC"
+}
